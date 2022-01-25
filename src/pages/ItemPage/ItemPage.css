@@ -1,0 +1,42 @@
+.game-page__content {
+  display: flex;
+}
+
+.game-page__left {
+  text-align: center;
+}
+
+
+.game-page__buy-game {
+  display: flex;
+  justify-content: flex-end;
+  width: 65%;
+  margin-top: 20px;
+}
+
+.game-page__title{
+  padding: 30px;
+  text-align: center;
+}
+
+
+.description{
+  width: 100%;
+  padding-top: 20px;
+} 
+
+
+.img{
+  width: 25%;
+  margin-left: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.box{
+  position: absolute;
+  top: 73%;
+  left: 39%;
+}

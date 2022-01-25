@@ -1,0 +1,44 @@
+main {
+    padding-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 5rem;
+  }
+  
+  @media (max-width: 935px) {
+    main {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 735px) {
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 535px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 335px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+.search__input{
+	border: 1px solid black;
+  background: black;
+  color: white;
+	border-radius: 10px;
+	padding: 5px;
+	margin:15px;
+	text-align: center;
+	width: 30%;
+	
+}
